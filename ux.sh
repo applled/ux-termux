@@ -1,6 +1,6 @@
 #!/bin/bash
 #Installing ubuntu and launching it
-pkg upgrade -y && apt-get update -y && apt install -y wget proot && wget https://github.com/anonymousx97/ubuntu/raw/master/ubuntu.sh && chmod +x ubuntu.sh &&  ./ubuntu.sh -y && ./startubuntu.sh
+(pkg upgrade -y && apt-get update -y && apt install -y wget proot && wget https://github.com/anonymousx97/ubuntu/raw/master/ubuntu.sh && chmod +x ubuntu.sh &&  ./ubuntu.sh -y && ./startubuntu.sh
  |
 #installing build dependencies in ubuntu
 apt -qq update && apt -qq upgrade -y && \
@@ -28,4 +28,4 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3.9 get-pip.py
 #Clone UX and install requirements
 git clone https://github.com/Anonymous-X97/UX-jutsu ux 
 cd ux
-pip install --no-cache-dir -r requirements.txt
+pip install --no-cache-dir -r requirements.txt)
