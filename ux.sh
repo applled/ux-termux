@@ -1,7 +1,7 @@
 #!/bin/bash
 #Installing ubuntu and launching it
-(pkg upgrade -y && apt-get update -y && apt install -y wget proot && wget https://github.com/anonymousx97/ubuntu/raw/master/ubuntu.sh && chmod +x ubuntu.sh &&  ./ubuntu.sh -y && ./startubuntu.sh
- |
+(pkg upgrade -y && apt-get update -y && apt install -y wget proot && wget https://github.com/anonymousx97/ubuntu/raw/master/ubuntu.sh && chmod +x ubuntu.sh &&  ./ubuntu.sh -y && ./startubuntu.sh &&
+
 #installing build dependencies in ubuntu
 apt -qq update && apt -qq upgrade -y && \
     apt -qq install -y --no-install-recommends \
