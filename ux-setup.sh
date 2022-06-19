@@ -10,23 +10,20 @@ clear
 echo -e "
        1.Installing required packages for Bot"
 
-
-apt update -y 
-apt upgrade -y
-yes|apt install/
-    apt-utils/
-    curl/
-    git/
-    gnupg2/
-    wget/
-    unzip/
-    tree/
-    gcc zlib1g-dev/
-    apt-transport-https/
-    build-essential coreutils jq pv/
-    ffmpeg mediainfo/
-    neofetch/
-    p7zip-full/
+yes|apt install\
+    apt-utils\
+    curl\
+    git\
+    gnupg2\
+    wget\
+    unzip\
+    tree\
+    gcc zlib1g-dev\
+    apt-transport-https\
+    build-essential coreutils jq pv\
+    ffmpeg mediainfo\
+    neofetch\
+    p7zip-full\
     libfreetype6-dev libjpeg-dev libpng-dev libgif-dev libwebp-dev
 yes|apt install python3 python-dev-is-python3 python3-distutils libxslt-dev libxml2 nano
 yes|apt install pip
