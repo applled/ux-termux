@@ -1,17 +1,15 @@
-outt() {
-    { "$@" || return $?; } | while read -r line; do
-        :
-    done
-}
-
+### made by Ryuk ###
 
 install_ux(){
 clear
 echo -e "
        1.Installing required packages for Bot
          this may take a while."
+echo -e "
+           Spam incoming in 5"
+sleep 4
 
-outt "$(yes|apt install\
+yes|apt install\
     apt-utils\
     curl\
     git\
@@ -25,11 +23,11 @@ outt "$(yes|apt install\
     ffmpeg mediainfo\
     neofetch\
     p7zip-full\
-    libfreetype6-dev libjpeg-dev libpng-dev libgif-dev libwebp-dev)"
-outt yes|apt install python3 python-dev-is-python3 python3-distutils libxslt-dev libxml2 nano
-outt yes|apt install pip
-outt pip install -U pip
-outt pip install -U setuptools
+    libfreetype6-dev libjpeg-dev libpng-dev libgif-dev libwebp-dev
+yes|apt install python3 python-dev-is-python3 python3-distutils libxslt-dev libxml2 nano
+yes|apt install pip
+pip install -U pip
+pip install -U setuptools
 
 echo -e "   
          Packages are set.  "
