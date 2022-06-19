@@ -1,3 +1,5 @@
+### made by Ryuk ###
+
 outt() {
     { "$@" || return $?; } | while read -r line; do
         :
