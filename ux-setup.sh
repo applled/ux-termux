@@ -38,7 +38,7 @@ git clone -q https://github.com/anonymous-x97/UX-jutsu ux
 cd ux
 echo -e "
        3.Done, Now Installing requirements,
-         this may take a while"
+        this may take a while, wait patiently."
 pip install --no-cache-dir -r requirements.txt
 clear
 echo -e "
