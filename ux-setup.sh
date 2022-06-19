@@ -11,7 +11,7 @@ echo -e "
 
        1.Installing required packages for Bot"
 
-outt "$(
+
     apt -qq update && apt -qq upgrade -y
     yes|apt install
     apt-utils
@@ -29,17 +29,18 @@ outt "$(
     p7zip-full
     libfreetype6-dev libjpeg-dev libpng-dev libgif-dev libwebp-dev
     yes|apt install python3 python-dev-is-python3 python3-distutils libxslt-dev libxml2 nano
-    yes|apt install pip)" 
+    yes|apt install pip
+
 echo -e "   
          Packages are set.  "
 echo -e "
        2.Clonning Repo."
 
-git clone -q https://github.com/anonymous-x97/UX-jutsu ux
-cd ux 
+git clone https://github.com/anonymous-x97/UX-jutsu ux
+cd ux
 echo -e "
        3.Done, now Installing requirements,
-       this may take a while"
+         this may take a while"
 pip install --no-cache-dir -r requirements.txt
 }
 
