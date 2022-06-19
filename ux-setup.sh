@@ -9,7 +9,7 @@ install_ux(){
 clear
 echo -e "
 
-       1.Installing required packages and Bot"
+       1.Installing required packages for Bot"
 
 outt "$(
     apt -qq update && apt -qq upgrade -y
