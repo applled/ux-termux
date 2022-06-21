@@ -7,7 +7,7 @@ echo -e "
          this may take a while."
 echo -e "
            Spam incoming in 5"
-sleep 4
+sleep 6
 
 yes|apt install\
     apt-utils\
