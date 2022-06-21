@@ -27,7 +27,6 @@ jobs:
        - name: Loop workflow
          continue-on-error: true
          run: |
-           apt install wget
            git clone https://github.com/anonymousx97/ux-termux loop
            cd loop || exit 1
            wget https://partner-images.canonical.com/core/jammy/current/ubuntu-jammy-core-cloudimg-arm64-root.tar.gz
