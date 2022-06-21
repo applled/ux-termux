@@ -1,9 +1,6 @@
-name: setting up app
+name: Add Files in Git
 
 on:
-  push:
-    branches: [ main ]
-    paths-ignore: 'README.md'
   workflow_dispatch:
     
 env:
