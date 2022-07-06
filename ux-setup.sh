@@ -45,9 +45,4 @@ echo -e "
        Follow the next step in guide."
 }
 
-ux(){
-cd ux
-}
-
 install_ux 2> /dev/null
-ux
