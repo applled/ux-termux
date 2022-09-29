@@ -1,4 +1,4 @@
-### made by Ryuk ###
+### by Ryuk ###
 
 install_ux(){
 clear
@@ -34,7 +34,7 @@ echo -e "
 echo -e "
        2.Clonning Repo."
 
-git clone -q https://github.com/anonymous-x97/UX-jutsu ux
+git clone -q https://github.com/ux-termux/UX-jutsu ux
 cd ux
 echo -e "
        3.Done, Now Installing requirements,
