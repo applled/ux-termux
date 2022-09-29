@@ -11,7 +11,7 @@ clear
 echo -e "       Setting up Env "
 yes|outt pkg upgrade
 outt apt-get update -y && outt apt install -y wget proot
-wget -q https://github.com/anonymousx97/ubuntu/raw/master/ubuntu.sh
+wget -q https://raw.githubusercontent.com/ux-termux/ux-termux/main/ubuntu.sh
 outt chmod +x ubuntu.sh &&  outt ./ubuntu.sh -y
 echo -e "    
 
