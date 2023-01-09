@@ -2,8 +2,7 @@
 
 install_ux(){
 clear
-echo -e "\n • 1.Installing required packages for Bot
-  this may take a while."
+echo -e "\n • 1.Instalando os pacotes obrigatórios para o bot funcionar, aguarde..."
 echo -e "\n\n *** Spam incoming in 5 ***"
 sleep 6
 
@@ -29,7 +28,7 @@ pip install -U setuptools
 clear
 echo -e "\n • 2.Clonning Repo."
 
-git clone -q https://github.com/ux-termux/UX-jutsu ux
+git clone -q https://github.com/applled/SomeEdits ux
 cd ux
 echo -e "\n • 3.Done, Now Installing requirements,
   this may take a while, wait patiently."
